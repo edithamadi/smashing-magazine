@@ -11,7 +11,7 @@ body {
   }
   
   header {
-    background-color: #073277;
+    background-color: #262a30;
     height: 900px;
     display: grid;
     grid-template-columns:  1fr 1fr;
@@ -22,17 +22,17 @@ body {
   
   header div.headeritem {
     border: 1px dotted #fff;
-    background-color: #5690ca;
+    background-color: #95989b;
     padding-top: 90px;
    }
    
    
    header div.headeritem.headeritem:nth-child(1), div.headeritem:nth-child(4) {
-     background: rgb(9, 9, 243);
+     background: rgb(48, 48, 53);
    }
    
    header .headeritem:nth-child(3) {
-     background: #6678a7;
+     background: #545455;
    }
    
    header div.headeritem.headeritem:nth-child(1),
@@ -49,7 +49,7 @@ body {
    }
    
    header .attention .attention-item {
-     background: #a4b9d8;
+     background: #47484b;
      padding: 5px;
    }
    
@@ -74,23 +74,23 @@ body {
   
   main div.mainitem {
     display: grid;
-    background:  #62e275;
+    background:  #323632;
     /* max-height: 200px; */
-    border: 1px solid rgb(235, 14, 14);
+    border: 1px solid rgb(7, 7, 7);
     border-radius: 10px;
     padding: 10px;
     text-align: left;
   }
   
   main div.mainitem:nth-child(4) {
-    background: #203a1b;
+    background: #717471;
     grid-column: -1/2;
     text-align: center;
   }
   
   main div.mainitem:nth-child(9) {
     text-align: center;
-    background: #072401;
+    background: #8f918f;
     grid-column: 2/4;
   }
   
@@ -98,7 +98,7 @@ body {
     height: 600px;
     margin-top: 10px;
     padding: 15px 40px;
-    background-color: rgb(71, 48, 153);
+    background-color: rgb(92, 91, 94);
     font-size: 22px;
     line-height: 1.5;
   }
@@ -114,7 +114,7 @@ body {
   }
   
   .community .communityitem {
-    background:  #830905;
+    background:  #443f3f;
     text-align: left;
     padding: 20px;
   }
@@ -142,17 +142,17 @@ body {
   }
   
   .guide .guided {
-    background-color: #8d8f07;
+    background-color: #6e6e6c;
     border-radius: 10px;
     padding: 20px;
   }
   
   .guide .guided:last-child {
-    background-color: #5c5e07;
+    background-color: #383836;
   }
   
   
   footer {
-    background: #d4c35d;
+    background: #313030;
     height: 350px;
   }
